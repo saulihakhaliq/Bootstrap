@@ -1,0 +1,85 @@
+body {
+ background:#f0f9ff;
+  color: #1e293b;
+}
+
+.custom-shadow{
+  box-shadow: 0 4px  12px rgba(93, 129, 193, 0.932);
+}
+
+
+.navbar{
+  background: rgba(197, 208, 223, 0.845);  
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+}
+
+.hero {
+   background-image: url(" ../img1.avif");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+   padding-top: 5rem !important;
+   padding-bottom: 5rem !important;
+}
+.product-card {
+  border: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 100%;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.1);
+}
+
+.product-image {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  background: #e2e8f0;
+}
+
+.price {
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.cart-row {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 14px 0;
+}
+
+.footer {
+  background-color:rgba(197, 208, 223, 0.845);
+
+}
+
+@media (max-width: 576px) {
+  .product-image {
+    height: 160px;
+  }
+} 
+.music-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: transparent;
+  color: purple;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  z-index: 1050;
+  box-shadow: 0 4px 10px #0003;
+}
+
+.music-btn:hover {
+  background: rgb(174, 164, 164);
+}
